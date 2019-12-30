@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ibarra Real Nova', serif;
+}
+body{
+    background-color:#fff;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 16px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background: url('fondo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    max-height: 600px;
+}
+header .menu{
+    margin: 40px auto;
+    text-align: center;
+}
+header .menu a{
+    color: #fff;
+    margin: 0 5px;
+    font-size: 12px;
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+header .menu a:hover{
+    color: #3895ea;
+    border-bottom: 2px solid #fff;
+}
+header .contenedor-texto{
+    margin: 95px 0;
+    display: flex;
+}
+header .contenedor-texto .texto{
+    border: 2px solid rgba(225, 225, 225, .5);
+    display: inline-block;
+    border-radius: 3px;
+    text-align: center;
+    padding: 20px 60px;
+}
+header .contenedor-texto .texto h2 {
+    color: #fff;
+    font-size: 20px;
+}
+header .contenedor-texto .texto h3 {
+    color: #fff;
+    font-size: 12px;
+}
+
+.main .contenedor{
+    overflow: visible;
+}
+.main .contenedor{
+    text-align: center;
+}
+.main .contenedor .imagen{
+    margin-top: -60px;   
+}
+.main .contenedor .imagen img{
+    border-radius: 50%;
+    vertical-align: top;
+    border: 3px solid rgba(255,255,255,0.2);
+}
+.main .contenedor .textos{
+    color: #5a5a5a;
+    font-weight: 100;
+    text-align: left;
+    font-size: 1em;
+    width: 80%;
+    margin: 30px auto;
+}
+.main .contenedor .textos .titulo{
+    font-weight: 600;
+    color: #3895ea;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+}
+.destacado{
+    color: #291212;
+    font-weight: bold;
+}
+.skills{
+    background:#F9F6F6;
+    padding: 30px 0;
+    
+}
+.skills .contenedor{
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 320px
+}
+.skills .contenedor .Titulo{
+    text-align: center;
+    color: #3895ea;
+    font-weight: 100;
+    font-size: 2em;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.skills .contenedor .trabajos{
+    width: 140px;
+}
+.skills .contenedor .trabajos .thumb{
+    margin-bottom: 10px;
+}
+.skills .contenedor .trabajos .thumb img{
+    vertical-align: top;
+    width: 100%;
+    border-radius: 5px;
+    width: 140px;
+}
+.skills .contenedor .trabajos .descripcion{
+    text-align: center;
+}
+.skills .contenedor .trabajos .descripcion .nombre{
+    font-size: 18px;
+    font-weight: bold;
+}
+.skills .contenedor .trabajos .descripcion .categoria{
+    font-style: italic;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+.experiencias{
+    padding: 20px auto;
+    margin: 20px auto;
+    width: 100%;
+    ;
+}
+.experiencias h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #3895ea;
+}
+.experiencias .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contenedor .trabajo{
+    padding: 20px 0;
+    width: 300px;
+    border: 1px solid rgba(225, 225, 225, .5);
+    width: 100%;
+    margin: 10px;
+}
+.contenedor .trabajo:hover{
+    color:#3895ea;
+}
+.trabajo #empresa{
+    font-size: 18px;
+    
+}
+.trabajo #tarea{
+    font-style: italic;
+}
+footer{
+    width: 100%;
+}
+footer .contacto{
+    padding: 50px 0;
+}
+footer .contacto .titulo{
+    text-align: center;
+    color: #3895ea;
+    font-weight: 100;
+    font-size: 2em;
+    width: 80%;
+    margin: 30px auto;
+}
+footer .contacto .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="mail"],
+footer .contacto .formulario textarea {
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #a4a4a4;
+}
+footer .contacto .formulario input[type="text"]:focus,
+footer .contacto .formulario input[type="mail"]:focus,
+footer .contacto .formulario textarea:focus {
+    border: 2px solid #3895ea;   
+    
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="mail"]{
+    width: 80%;
+    margin-bottom: 15px;
+}
+footer .contacto .formulario textarea{
+    width: 80%;
+    height: 100px;
+    min-width: 100px;
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 15px;
+}
+footer .contacto .formulario input[type="text"]:selection,
+footer .contacto .formulario input[type="mail"]:checked{
+    color: #3895ea;
+}
+
+.formulario .boton{
+    margin: auto;
+    background-color: #3895ea;
+    border-radius: 5px;
+    padding: 15px 40px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.formulario .boton:hover{
+    background: #387bea;
+}
+
+
+.redes{
+    padding: 10px 0;
+    background: #1e2b38;   
+}
+
+footer .iconografia{
+    display: flex;
+    justify-content: center;
+}
+.redes .contenedor a{
+    text-align: center;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 25px;
+    margin: 0 20px;
+}
+footer .contenedor .linkedin:hover{
+    background:#0077b5;
+}
+footer .contenedor .github:hover{
+    background:#333;
+}
+footer .contenedor .behance:hover{
+    background: #1769ff;
+}
+footer .contenedor .instagram:hover{
+    background: #f56040;
+}
+
+
+@media (min-width:640px){
+    header .menu{
+        margin: 40px auto;
+        text-align:right;
+    }
+    header .menu a{
+        color: #fff;
+        margin: 0 15px;
+        font-size: 16px;
+        padding-bottom: 9px;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+    }
+    header .contenedor-texto .texto{
+        border: 2px solid rgba(225, 225, 225, .5);
+        display: inline-block;
+        border-radius: 5px;
+        text-align: center;
+        padding:20px 60px;
+        margin: auto;
+    }
+    header .contenedor-texto .texto h2 {
+        color: #fff;
+        font-size: 24px;
+    }
+    header .contenedor-texto .texto h3 {
+        color: #fff;
+        font-size: 16px;
+    }
+    .main .contenedor .textos{
+        color: #5a5a5a;
+        font-weight: 100;
+        text-align: left;
+        font-size: 18px;
+        width: 80%;
+        margin: 30px auto;
+    }
+    .main .contenedor .textos .titulo{
+        font-weight: 600;
+        color: #3895ea;
+        font-size: 32px;
+        padding: 10px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .skills .contenedor{
+        height: 1500px;
+        overflow: hidden;        
+    }
+    .skills .contenedor .trabajos{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .skills .contenedor .trabajos .thumb{
+        margin-bottom: 10px;
+        display: flex;
+        width: 48%;
+    }
+    .skills .contenedor .trabajos .thumb img{
+        vertical-align: top;
+        
+        border-radius: 5px;
+        width: 300px;
+    }
+    .skills .contenedor .trabajos .descripcion{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .skills .contenedor .trabajos .descripcion .nombre{
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+    }
+    .skills .contenedor .trabajos .descripcion .categoria{
+        font-style: italic;
+        padding-bottom: 8px;
+        margin-bottom: 20px;
+    }
+    
+
+
+    footer .contacto .formulario input[type="text"],
+    footer .contacto .formulario input[type="mail"]{
+    width: 40%;
+    margin-bottom: 15px;
+}
+    footer .contacto .formulario textarea{
+    width: 100%;
+    height: 100px;
+    min-width: 100px;
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 15px;
+}
+
+}
